@@ -5,7 +5,7 @@ const imgUrl =
 
 const SniffitCommunitySection = () => {
   return (
-    <div className='flex flex-col md:flex-row w-full h-full px-24 items-center justify-center py-14'>
+    <div className='flex flex-col md:flex-row w-full h-full px-48 items-center justify-center py-14'>
       {/* Left Side - Text */}
       <div className='flex flex-col justify-center items-start w-full md:w-1/2 p-8'>
         <h2 className='text-4xl font-bold mb-4'>
@@ -30,11 +30,15 @@ const SniffitCommunitySection = () => {
         />
 
         {/* Orange Box Overlay */}
-        <div className='absolute bottom-4 left-4 bg-orange-500 text-white px-4 py-3 rounded-md text-center'>
-          <div className='text-3xl font-bold'>150+</div>
-          <div>Join Us</div>
-          <div className='text-3xl font-bold mt-2'>15</div>
-          <div>Trusted by Owners</div>
+        <div className='absolute bottom-4 flex left-4 bg-[#d87738] items-center justify-evenly  text-white px-4 py-4 rounded-md text-center w-1/2 h-1/4 gap-6'>
+          <div className='flex flex-col items-start justify-between h-[60px] gap-1'>
+            <div className='text-4xl font-bold'>150+</div>
+            <div>Join Us</div>
+          </div>
+          <div className='flex flex-col items-start justify-between h-[60px] gap-1'>
+            <div className='text-4xl font-bold '>15</div>
+            <div>Trusted by Owners</div>
+          </div>
         </div>
       </div>
     </div>

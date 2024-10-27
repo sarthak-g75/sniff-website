@@ -10,7 +10,7 @@ const Navbar = () => {
   ]
 
   return (
-    <nav className='flex items-center justify-between lg:px-24 px-8 py-6 bg-white text-black shadow-lg   '>
+    <nav className='flex items-center justify-between lg:px-48 px-8 py-6 bg-white text-black shadow-lg   '>
       <div className='text-2xl font-bold'>
         <Link to='/'>Sniffit</Link>
       </div>
