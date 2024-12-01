@@ -4,6 +4,9 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Privacy from './screens/Privacy'
 import DeleteYourAccount from './screens/DeleteYourAccount'
+import Tips from './screens/Tips'
+import AdoptionTips from './screens/AdoptionTips'
+import BreedingTips from './screens/BreedingTips'
 function App() {
   return (
     <>
@@ -16,6 +19,18 @@ function App() {
         <Route
           path='/privacy-policy'
           element={<Privacy />}
+        />
+        <Route
+          path='/tips'
+          element={<Tips />}
+        />
+        <Route
+          path='/adoption-tips'
+          element={<AdoptionTips />}
+        />
+        <Route
+          path='/breeding-tips'
+          element={<BreedingTips />}
         />
         <Route
           path='/delete-your-account'
